@@ -1,0 +1,8 @@
+DROP DATABASE IF exists userdb;
+CREATE DATABASE userdb CHARSET utf8mb4;
+USE userdb;
+
+CREATE TABLE users (
+    id_news INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
