@@ -16,7 +16,7 @@ router.get('/ping', async function(req, res, next) {
 });
 
 router.get('/create', async function(req, res, next) {
-  const result = await pool.query('INSERT INTO users(name) VALUES("salem")')
+  const result = await pool.query('INSERT INTO users(name) VALUES("dxvfcbfcbfd")')
   // console.log(result[0])
   res.json(result)
 });
